@@ -1,0 +1,11 @@
+// 初始化git仓库
+git init
+git add README.md
+
+// 提交 -m:修改 "修改日志"
+git commit -m "first commit"
+// 提交到 url
+git remote add origin https://github.com/QKteamzfc/myhomep.git
+
+// 推送
+git push -u origin master
