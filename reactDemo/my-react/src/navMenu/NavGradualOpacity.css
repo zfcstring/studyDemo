@@ -1,0 +1,79 @@
+.nav-graopa {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  background: #e66565;
+  z-index: 9;
+  animation-duration: 2s;
+  /* animation-delay: 2s; */
+  animation-fill-mode: forwards;
+}
+/* 导航栏隐藏动画 */
+@keyframes navTohide
+{
+  0% {height: 80px; width: 100%; top: 0; right: 0;}
+  25% {height: 2px; width: 100%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 300px; width: 5%; top: 0; right: 0;}
+  100% {height: 300px; width: 5%; top: 50px; right: 20px;}
+}
+@-moz-keyframes navTohide /* Firefox */
+{
+  0% {height: 80px; width: 100%; top: 0; right: 0;}
+  25% {height: 2px; width: 100%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 300px; width: 5%; top: 0; right: 0;}
+  100% {height: 300px; width: 5%; top: 50px; right: 20px;}
+}
+@-webkit-keyframes navTohide /* Safari 和 Chrome */
+{
+  0% {height: 80px; width: 100%; top: 0; right: 0;}
+  25% {height: 2px; width: 100%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 300px; width: 5%; top: 0; right: 0;}
+  100% {height: 300px; width: 5%; top: 50px; right: 20px;}
+}
+@-o-keyframes navTohide /* Opera */
+{
+  0% {height: 80px; width: 100%; top: 0; right: 0;}
+  25% {height: 2px; width: 100%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 300px; width: 5%; top: 0; right: 0;}
+  100% {height: 300px; width: 5%; top: 50px; right: 20px;}
+}
+/* 导航栏还原动画 */
+@keyframes navToshow
+{
+  0% {height: 300px; width: 5%; top: 50px; right: 20px;}
+  25% {height: 300px; width: 5%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 2px; width: 100%; top: 0; right: 0;}
+  100% {height: 80px; width: 100%; top: 0; right: 0;}
+}
+@-moz-keyframes navToshow
+{
+  0% {height: 300px; width: 5%; top: 50px; right: 20px;}
+  25% {height: 300px; width: 5%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 2px; width: 100%; top: 0; right: 0;}
+  100% {height: 80px; width: 100%; top: 0; right: 0;}
+}
+@-webkit-keyframes navToshow
+{
+  0% {height: 300px; width: 5%; top: 50px; right: 20px;}
+  25% {height: 300px; width: 5%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 2px; width: 100%; top: 0; right: 0;}
+  100% {height: 80px; width: 100%; top: 0; right: 0;}
+}
+@-o-keyframes navToshow
+{
+  0% {height: 300px; width: 5%; top: 50px; right: 20px;}
+  25% {height: 300px; width: 5%; top: 0; right: 0;}
+  50% {height: 2px; width: 5%; top: 0; right: 0;}
+  75% {height: 2px; width: 100%; top: 0; right: 0;}
+  100% {height: 80px; width: 100%; top: 0; right: 0;}
+}

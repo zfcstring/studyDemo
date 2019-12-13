@@ -1,0 +1,5 @@
+.layout {
+  background: #ddd;
+  min-height: 150vh;
+  display: flex;
+}
