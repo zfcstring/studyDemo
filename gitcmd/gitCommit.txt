@@ -9,5 +9,7 @@ git commit -m "commit desc"
 // 初始化一个远程仓库
 git remote add origin https://github.com/QKteamzfc/myhomep.git
 
-// 推送
+// 第一次推送
 git push -u origin master
+// 推送
+git push origin master
