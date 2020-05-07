@@ -2,8 +2,10 @@
 git init
 git add README.md
 
+// 添加修改(.添加全部)
+git add fileName
 // 提交 -m:修改 "修改日志"
-git commit -m "first commit"
+git commit -m "commit desc"
 // 初始化一个远程仓库
 git remote add origin https://github.com/QKteamzfc/myhomep.git
 
