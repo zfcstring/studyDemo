@@ -1,6 +1,5 @@
 // 初始化git仓库
 git init
-git add README.md
 
 // 添加修改(.添加全部)
 git add fileName
